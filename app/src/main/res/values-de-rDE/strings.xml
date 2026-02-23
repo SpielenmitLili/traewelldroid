@@ -185,6 +185,7 @@
     <string name="tag_passenger_rights_example">z.B. Beantragt, Ausgezahlt, Fall-ID, …</string>
     <string name="tag_price_title">Preis</string>
     <string name="tag_journey_number_title">Fahrtnummer</string>
+    <string name="tag_social_status_title">Sozialstatus</string>
     <string name="add_tag">Tag hinzufügen</string>
     <string name="edit_tag">Tag bearbeiten</string>
     <string name="select_tag_type">Tagart auswählen</string>

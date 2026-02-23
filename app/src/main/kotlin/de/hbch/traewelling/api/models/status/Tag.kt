@@ -89,6 +89,21 @@ enum class TagType {
         override val key = "trwl:price"
         override val example = R.string.tag_price_example
     },
+    @SerializedName("trwl:social_status")
+    SOCIAL_STATUS {
+        override val icon = R.drawable.ic_people
+        override val title = R.string.tag_social_status_title
+        /* Zumindest auf der Webseite ist das keine freie Texteingabe sondern Auswahl
+           Folgende Auswahlmöglichkeiten sind vorhanden:
+           - open - Offen für Gespräche
+           - open_find_me - Komm gern vorbei
+           - open_lets_hang - Lass uns treffen
+           - do_not_disturb - Bitte nicht stören
+           Man müsste daher hier ein Dropdown integrieren
+         */
+        override val key = "trwl:social_status"
+        override val example = R.string.tag_social_status_example
+    },
     UNKNOWN {
         override val icon = R.drawable.ic_unknown
         override val title = R.string.unknown
